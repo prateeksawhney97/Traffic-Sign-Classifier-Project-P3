@@ -70,10 +70,10 @@ My final model consisted of the following layers:
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
-| RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
+| Convolution Layer 1   	| Outputs 28x28x6 	|
+| RELU					|	Activation applied to output of layer 1	|
+| Pooling	      	| Input = 28x28x6, Output = 14x14x6 				|
+| Convolution Layer 2	    | Outputs 10x10x16    									|
 | Fully connected		| etc.        									|
 | Softmax				| etc.        									|
 |						|												|
