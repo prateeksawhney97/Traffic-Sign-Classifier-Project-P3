@@ -83,9 +83,8 @@ I used the same LeNet model architecture which consists of two convolutional lay
 
 My final model results were:
 * validation set accuracy of 0.975 
-* test set accuracy of 
 
-I used normalized images to train the model and the number of EPOCHS=20 and the BATCH_SIZE=128. With the use of the defined hyperparameters, the validation set accuracy is 0.975 which is more than the 0.93 benchmark. EPOCHS and BATCH_SIZE are defined in cell 7 and the normalization of the dataset is done in cell 8. Moreover, the shuffling of the dataset is done in cell 6. Further, the model has an accuracy of 0.625 on the eight downloaded images of german traffic signs from the web. The model has a test accuracy of .
+I used normalized images to train the model and the number of EPOCHS=20 and the BATCH_SIZE=128. With the use of the defined hyperparameters, the validation set accuracy is 0.975 which is more than the 0.93 benchmark. EPOCHS and BATCH_SIZE are defined in cell 7 and the normalization of the dataset is done in cell 8. Moreover, the shuffling of the dataset is done in cell 6. Further, the model has an accuracy of 0.625 on the eight downloaded images of german traffic signs from the web.
  
 
 ### Test a Model on New Images
