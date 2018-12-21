@@ -113,7 +113,7 @@ If a well known architecture was chosen:
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are eight German traffic signs that I found on the web:
+### Here are eight German traffic signs that I found on the web:
 
 ![test_1](https://user-images.githubusercontent.com/34116562/50350706-f3b3e680-0565-11e9-8535-89058319ac2b.jpeg)
 ![test_2](https://user-images.githubusercontent.com/34116562/50350707-f4e51380-0565-11e9-912d-f55cb6f86225.jpeg)
@@ -124,7 +124,7 @@ Here are eight German traffic signs that I found on the web:
 ![test_7](https://user-images.githubusercontent.com/34116562/50350717-fe6e7b80-0565-11e9-8a18-57957f849787.jpeg)
 ![test_8](https://user-images.githubusercontent.com/34116562/50350721-01696c00-0566-11e9-99fd-240eecc9b2a4.jpeg)
 
-THe eight German Traffic signs after resizing them to 32x32:
+### The eight German Traffic signs after resizing them to 32x32:
 
 ![download 2](https://user-images.githubusercontent.com/34116562/50350874-7d63b400-0566-11e9-9a4e-7ee99104a6ba.png)
 ![download 3](https://user-images.githubusercontent.com/34116562/50350876-7e94e100-0566-11e9-89e0-c5e67b41d75c.png)
