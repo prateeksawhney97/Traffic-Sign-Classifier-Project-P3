@@ -113,12 +113,17 @@ If a well known architecture was chosen:
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
+Here are eight German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![test_1](https://user-images.githubusercontent.com/34116562/50350706-f3b3e680-0565-11e9-8535-89058319ac2b.jpeg)
+![test_2](https://user-images.githubusercontent.com/34116562/50350707-f4e51380-0565-11e9-912d-f55cb6f86225.jpeg)
+![test_3](https://user-images.githubusercontent.com/34116562/50350709-f6164080-0565-11e9-8fdd-9204a3b37552.jpeg)
+![test_4](https://user-images.githubusercontent.com/34116562/50350711-f7e00400-0565-11e9-8836-9678b74452a5.jpeg)
+![test_5](https://user-images.githubusercontent.com/34116562/50350713-f9a9c780-0565-11e9-8e98-a2ba70dd4478.jpeg)
+![test_6](https://user-images.githubusercontent.com/34116562/50350714-fc0c2180-0565-11e9-9fb9-ae7fa91c2302.jpeg)
+![test_7](https://user-images.githubusercontent.com/34116562/50350717-fe6e7b80-0565-11e9-8a18-57957f849787.jpeg)
+![test_8](https://user-images.githubusercontent.com/34116562/50350721-01696c00-0566-11e9-99fd-240eecc9b2a4.jpeg)
 
-The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
