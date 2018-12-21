@@ -139,15 +139,18 @@ If a well known architecture was chosen:
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
-Here are the results of the prediction:
+Here are the results of the prediction on the eight german traffic signs:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Yield    		| Yield 									| 
+| Stop     			| Stop 										|
+| Stop					| Stop											|
+| Pedestrians	      		| Speed limit (50km/h)					 				|
+| Road Work			| Road Work 							|
+| Keep right			| Yield      							|
+| Speed limit (70km/h)			| Bicycles crossing  							|
+| No entry			| No entry     							|
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
