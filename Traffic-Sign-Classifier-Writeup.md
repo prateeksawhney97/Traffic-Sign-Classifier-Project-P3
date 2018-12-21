@@ -38,7 +38,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-
+![download 1](https://user-images.githubusercontent.com/34116562/50345963-d592ba00-0556-11e9-9f11-26364914f745.png)
 
 ### Design and Test a Model Architecture
 
