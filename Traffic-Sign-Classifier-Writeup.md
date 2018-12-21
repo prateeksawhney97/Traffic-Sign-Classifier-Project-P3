@@ -124,6 +124,18 @@ Here are eight German traffic signs that I found on the web:
 ![test_7](https://user-images.githubusercontent.com/34116562/50350717-fe6e7b80-0565-11e9-8a18-57957f849787.jpeg)
 ![test_8](https://user-images.githubusercontent.com/34116562/50350721-01696c00-0566-11e9-99fd-240eecc9b2a4.jpeg)
 
+THe eight German Traffic signs after resizing them to 32x32:
+
+![download 2](https://user-images.githubusercontent.com/34116562/50350874-7d63b400-0566-11e9-9a4e-7ee99104a6ba.png)
+![download 3](https://user-images.githubusercontent.com/34116562/50350876-7e94e100-0566-11e9-89e0-c5e67b41d75c.png)
+![download 4](https://user-images.githubusercontent.com/34116562/50350877-805ea480-0566-11e9-8ed0-d964bf3b98ca.png)
+![download 5](https://user-images.githubusercontent.com/34116562/50350878-82286800-0566-11e9-9677-eebe3aff8a6a.png)
+![download 6](https://user-images.githubusercontent.com/34116562/50350880-848ac200-0566-11e9-9a3f-16d2781a2dd7.png)
+![download 7](https://user-images.githubusercontent.com/34116562/50350894-8c4a6680-0566-11e9-94b9-fee4c491687e.png)
+![download 8](https://user-images.githubusercontent.com/34116562/50350901-8eacc080-0566-11e9-9223-209ae8326efb.png)
+![download 9](https://user-images.githubusercontent.com/34116562/50350906-910f1a80-0566-11e9-9f08-4be597a04f5e.png)
+
+
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
