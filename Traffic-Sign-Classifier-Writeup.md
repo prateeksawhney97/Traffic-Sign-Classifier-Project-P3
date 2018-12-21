@@ -74,10 +74,14 @@ My final model consisted of the following layers:
 | RELU					|	Activation applied to output of layer 1	|
 | Pooling	      	| Input = 28x28x6, Output = 14x14x6 				|
 | Convolution Layer 2	    | Outputs 10x10x16    									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
+| RELU		| Activation applied to output of layer 2        									|
+| Pooling				| Input = 10x10x16, Output = 5x5x16        									|
+|	Flatten					|		Input = 5x5x16, Output =400										|
+|		Fully Connected Layer 1				|		Input = 400, Output = 120						|
+| RELU		| Activation applied to output of Fully Connected layer 1        									|
+|		Fully Connected Layer 2				|		Input = 120, Output = 84						|
+| RELU		| Activation applied to output of Fully Connected layer 2        									|
+|		Fully Connected Layer 3				|		Input = 84, Output = 43					|
  
 
 
