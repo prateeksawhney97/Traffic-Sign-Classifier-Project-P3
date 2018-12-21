@@ -138,13 +138,52 @@ The model was able to correctly guess 5 of the 8 traffic signs. Test Accuracy on
 
 The code for making predictions on my final model is located in the 15th cell of the Ipython notebook and the code for evaluating the accuracy on these new downloaded images is displayed in cell number 16.
 
-For the first image, the model is sure that this is a yield sign (probability of 1), and the image do contain a stop sign. Hence, predicted correctly. The top five soft max probabilities were
+For the first image, the model is sure that this is a yield sign (probability of 1), and the image do contain a stop sign. Hence, predicted correctly. The top five soft max probabilities were:
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1        			| yield sign   									| 
 | 0     				| for any other sign 										|
 
-For the second image ... 
+For the second and the third image, the model is sure that this is a stop sign (probability of 1), and the image do contain a stop sign. Hence, predicted correctly. The top five soft max probabilities were:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1        			| stop sign   									| 
+| 0     				| for any other sign 										|
+
+For the fourth image, the model is sure that this is a Speed limit (50km/h) sign (probability of 1), and the image does not contain a Speed limit (50km/h) sign. Hence, not predicted correctly. The top five soft max probabilities were:
 
 
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1        			| Speed limit (50km/h)   									| 
+| 0     				| for any other sign 										|
+
+For the fifth image, the model is sure that this is a Road Work sign (probability of 1), and the image do contain a Road Work sign. Hence, predicted correctly. The top five soft max probabilities were:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1        			| Road Work   									| 
+| 0     				| for any other sign 										|
+
+For the sixth image, the model is sure that this is a yield sign (probability of 1), and the image do not contain a yield sign. Hence, not predicted correctly. The top five soft max probabilities were:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1        			| yield   									| 
+| 0     				| for any other sign 										|
+
+For the seventh image, the model is sure that this is a Bicycles crossing  sign (probability of 1), and the image do not contain a Bicycles crossing  sign. Hence, not predicted correctly. The top five soft max probabilities were:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1        			| Bicycles crossing   									| 
+| 0     				| for any other sign 										|
+
+For the eight image, the model is sure that this is a No entry sign (probability of 1), and the image do contain a No entry sign. Hence, predicted correctly. The top five soft max probabilities were:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1        			| No entry   									| 
+| 0     				| for any other sign 										|
