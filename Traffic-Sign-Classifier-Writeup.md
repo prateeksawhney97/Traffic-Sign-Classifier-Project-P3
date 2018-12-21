@@ -36,7 +36,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set, by drawing the first image of 35 classes, 43 classes in total.
+Visualization of the dataset is done in two parts. In the first part, a very simple basic approach is taken to display a single image from the dataset. After that, there is an exploratory visualization of the data set, by drawing the first image of 35 classes, 43 classes in total.
 
 ![download 1](https://user-images.githubusercontent.com/34116562/50345963-d592ba00-0556-11e9-9f11-26364914f745.png)
 
@@ -44,24 +44,7 @@ Here is an exploratory visualization of the data set, by drawing the first image
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
-As a first step, I decided to convert the images to grayscale because ...
-
-Here is an example of a traffic sign image before and after grayscaling.
-
-![alt text][image2]
-
-As a last step, I normalized the image data because ...
-
-I decided to generate additional data because ... 
-
-To add more data to the the data set, I used the following techniques because ... 
-
-Here is an example of an original image and an augmented image:
-
-![alt text][image3]
-
-The difference between the original data set and the augmented data set is the following ... 
-
+As a first step, I decided to shuffle my X_train, y_train. Then, I used Normalization as one of the preprocessing technique. In which, the dataset (X_train, X_test, X_valid) is fed into the normalization(x_label) function which converts all the data and returns the normalized one.
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
@@ -87,7 +70,7 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used EPOCHS = 20, BATCH_SIZE = 128, rate = 0.001, mu = 0, sigma = 0.1.
+To train the model, I used EPOCHS = 20, BATCH_SIZE = 128, rate = 0.001, mu = 0, sigma = 0.1. I used the same LeNet model architecture which consists of two convolutional layers and three fully connected layers. The input is an image of size (32x32x3) and output is 43 i.e. the total number of distinct classes. In the middle, I used RELU activation function after each convolutional layer as well as the first two fully connected layers. Flatten is used to convert the output of 2nd convolutional layer after pooling i.e. 5x5x16 into 400.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
