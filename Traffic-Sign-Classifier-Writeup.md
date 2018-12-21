@@ -36,7 +36,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set, by drawing the first image of 35 classes, 43 classes in total.
 
 ![download 1](https://user-images.githubusercontent.com/34116562/50345963-d592ba00-0556-11e9-9f11-26364914f745.png)
 
@@ -83,7 +83,7 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+To train the model, I used EPOCHS = 20, BATCH_SIZE = 128, rate = 0.001, mu = 0, sigma = 0.1.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
