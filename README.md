@@ -3,6 +3,8 @@
 
 ## **Building a Traffic Sign Recognition Project**
 
+![](giphytraffic.gif)
+
 ## The goals / steps of this project are the following:
 #### * Loading the data set
 #### * Explore, summarize and visualize the data set
